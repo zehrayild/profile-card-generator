@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.container{
+    display: flex; //yanyana koyarız
+    justify-content: center;
+    gap: 30px; //araya boşluk
+    margin-top: 40px;
+}
+.form-box, .card-box{
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px; //köşeleri yuvarlar
+}
+input, textarea{ 
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, textarea {
+    display: block;
+}
+.card-box{
+    box-shadow: 0 0 15px rgba(0,0,0,0,2);
+}
+h2 {
+    margin-bottom: 10px;
+}
+textarea{ 
+    height: 80px;
+}
